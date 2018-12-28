@@ -1,0 +1,1 @@
+Java -Dwebdriver.chrome.driver=chromedriver.exe -Dwebdriver.firefox.driver=geckodriver.exe -jar selenium-server-standalone-3.14.0.jar -port 4444

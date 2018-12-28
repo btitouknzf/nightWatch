@@ -1,0 +1,7 @@
+
+node.jsのインストール
+nightwatchのインストール
+各ブラウザをインストール＋ブラウザプラグインでseleniumIDEをインストール
+selenium.jarをダウンロード
+各ブラウザに対応したwebdriver.exeをダウンロード
+nightwatch getting startのとおり
