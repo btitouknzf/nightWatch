@@ -1,0 +1,31 @@
+1.%APPDATA%\Mozilla\Firefox\profiles.iniを開く
+2.プロファイルを追加する
+プロファイルは作成されたディレクトリを指定でOK
+Base64のZipじゃなくていい
+
+[Profile<number>]
+Name=<profile_name>
+IsRelative=0
+Path=<absolute path to your profile>
+
+Example:
+
+[Profile3]
+Name=Nightwatch
+IsRelative=0
+Path=C:\Nightwatch\firefoxProfile\xcz6tuvq.Nightwatch
+
+3.seleniumの設定に下記を追加する
+
+"webdriver.firefox.profile" : "<profile_name>",
+
+Example:
+
+"cli_args": {
+    "webdriver.gecko.driver": "./lib/geckodriverv0.18.0-win32.exe",
+    "webdriver.firefox.profile" : "Nightwatch"
+}
+
+
+
+

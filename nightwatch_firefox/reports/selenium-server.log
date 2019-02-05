@@ -1,0 +1,543 @@
+19:30:58.543 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+19:30:58.544 INFO - Launching a standalone Selenium Server
+2019-02-04 19:30:58.566:INFO::main: Logging initialized @268ms to org.seleniumhq.jetty9.util.log.StdErrLog
+19:30:58.631 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:30:58.631 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+19:30:58.631 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:30:58.631 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+19:30:58.632 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
+2019-02-04 19:30:58.684:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2019-02-04 19:30:58.717:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@132ec19{/,null,AVAILABLE}
+2019-02-04 19:30:58.808:INFO:osjs.AbstractConnector:main: Started ServerConnector@b9f472{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2019-02-04 19:30:58.809:INFO:osjs.Server:main: Started @511ms
+19:30:58.809 INFO - Selenium Server is up and running
+19:30:59.433 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+19:30:59.451 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Shinkin Nightwatch Demo, browserName=firefox, platform=ANY}]])
+19:30:59.467 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Shinkin Nightwatch Demo, browserName=firefox, platform=ANY}]
+1549276260956	geckodriver	INFO	geckodriver 0.18.0
+1549276260964	geckodriver	INFO	Listening on 127.0.0.1:35590
+1549276271080	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1549276271360	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1549276271361	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1549276271373	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1549276271374	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1549276271374	addons.manager	DEBUG	Starting provider: XPIProvider
+1549276271374	addons.xpi	DEBUG	startup
+1549276271376	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1549276271377	addons.xpi	DEBUG	checkForChanges
+1549276271377	addons.xpi	DEBUG	Loaded add-on state: {"app-system-defaults":{"addons":{"formautofill@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397395,"path":"formautofill@mozilla.org.xpi","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"screenshots@mozilla.org":{"enabled":true,"lastModifiedTime":1515052409366,"path":"screenshots@mozilla.org.xpi","version":"19.2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397558,"path":"webcompat@mozilla.org.xpi","version":"1.1","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"activity-stream@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397621,"path":"activity-stream@mozilla.org.xpi","version":"2017.11.07.1100-7f4e3634","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"aushelper@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397007,"path":"aushelper@mozilla.org.xpi","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"e10srollout@mozilla.org":{"enabled":true,"lastModifiedTime":1515052396998,"path":"e10srollout@mozilla.org.xpi","version":"3.05","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"firefox@getpocket.com":{"enabled":true,"lastModifiedTime":1515052397512,"path":"firefox@getpocket.com.xpi","version":"1.0.5","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"followonsearch@mozilla.com":{"enabled":true,"lastModifiedTime":1515052397054,"path":"followonsearch@mozilla.com.xpi","version":"0.9.6","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"onboarding@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397377,"path":"onboarding@mozilla.org.xpi","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"shield-recipe-client@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397753,"path":"shield-recipe-client@mozilla.org.xpi","version":"76.1","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false}},"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features"},"app-global":{"addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"enabled":true,"lastModifiedTime":1515052397001,"path":"{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","version":"57.0.4","type":"theme","currentModifiedTime":1515052397001}},"path":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions","checkStartupModifications":true}}
+1549276271379	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1549276271380	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1549276271380	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549276271381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1549276271381	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549276271381	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549276271381	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549276271381	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1549276271381	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1549276271381	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1549276271382	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1549276271382	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1549276271383	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1549276271384	addons.xpi	DEBUG	No changes found
+1549276271388	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1549276271389	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1549276271391	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2017.11.07.1100-7f4e3634
+1549276271392	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549276271393	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549276271395	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1549276271397	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549276271398	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549276271402	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 3.05
+1549276271402	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549276271403	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549276271405	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1549276271411	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1549276271412	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1549276271415	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.6
+1549276271415	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1549276271416	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1549276271418	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1549276271418	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1549276271419	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1549276271420	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1549276271421	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1549276271421	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1549276271423	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 19.2.0
+1549276271423	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1549276271424	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1549276271426	addons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 76.1
+1549276271427	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549276271428	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549276271429	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1549276271431	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1549276271431	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1549276271431	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1549276271431	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1549276271431	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1549276271432	addons.manager	DEBUG	Starting provider: GMPProvider
+1549276271447	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1549276271447	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1549276271447	addons.manager	DEBUG	Starting provider: PluginProvider
+1549276271448	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1549276271448	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1549276271449	addons.manager	DEBUG	Completed startup sequence
+1549276271511	Marionette	INFO	Enabled via --marionette
+1549276271602	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1549276271602	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1549276271602	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1549276272084	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\U602896\AppData\Local\Temp\rust_mozprofile.UpiFWfOU3iPe\extensions.json
+1549276272113	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1549276272113	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549276272113	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549276272113	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549276272113	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1549276272113	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1549276272113	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1549276272113	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1549276272113	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1549276272114	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549276272114	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1549276272115	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1549276272115	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1549276272115	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1549276272116	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1549276272116	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1549276272116	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1549276272117	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1549276272117	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1549276272117	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1549276272118	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1549276272119	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1549276272119	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1549276272286	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1549276272286	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1549276272290	addons.xpi-utils	DEBUG	Successfully read XPI database
+1549276272482	Marionette	INFO	Listening on port 60763
+1549276272663	Marionette	DEBUG	Register listener.js for window 2147483649
+19:31:12.720 INFO - Detected dialect: W3C
+19:31:13.210 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Shinkin Nightwatch Demo, browserName=firefox, platform=ANY}]]
+19:31:13.231 INFO - Executing: [get: http://10.9.118.48/est/webfb/wfblin000.do?Code=NTEwNA==])
+1549276273244	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1549276273291	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1549276273292	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://10.9.118.48/est/webfb/common/js/popup.js, line 51: TypeError: document.softKeyParam is undefined
+1549276274141	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wfblin000.do?Code=NTEwNA=="
+1549276275421	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wfblin000.do?Code=NTEwNA=="
+19:31:15.430 INFO - Done: [get: http://10.9.118.48/est/webfb/wfblin000.do?Code=NTEwNA==]
+19:31:15.438 INFO - Executing: [find elements: By.cssSelector: body])
+19:31:15.461 INFO - Done: [find elements: By.cssSelector: body]
+19:31:15.470 INFO - Executing: [get title])
+19:31:15.475 INFO - Done: [get title]
+19:31:15.485 INFO - Executing: [find element: By.cssSelector: input[name="userid"]])
+19:31:15.494 INFO - Done: [find element: By.cssSelector: input[name="userid"]]
+19:31:15.499 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="userid"]]])
+19:31:15.534 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="userid"]]]
+19:31:15.541 INFO - Executing: [find element: By.cssSelector: input[name="userid"]])
+19:31:15.549 INFO - Done: [find element: By.cssSelector: input[name="userid"]]
+19:31:15.554 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="userid"]], [5, 1, 0, 4, m, a, s, t, e, r, 1]])
+19:31:15.593 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="userid"]], [5, 1, 0, 4, m, a, s, t, e, r, 1]]
+19:31:15.599 INFO - Executing: [find element: By.cssSelector: input[name="passwd"]])
+19:31:15.606 INFO - Done: [find element: By.cssSelector: input[name="passwd"]]
+19:31:15.609 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="passwd"]]])
+19:31:15.638 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="passwd"]]]
+19:31:15.643 INFO - Executing: [find element: By.cssSelector: input[name="passwd"]])
+19:31:15.652 INFO - Done: [find element: By.cssSelector: input[name="passwd"]]
+19:31:15.656 INFO - Executing: [send keys: 2 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="passwd"]], [n, t, t, d, 1, 1]])
+19:31:15.684 INFO - Done: [send keys: 2 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="passwd"]], [n, t, t, d, 1, 1]]
+19:31:15.691 INFO - Executing: [find element: By.cssSelector: input[name="wfblin001"]])
+19:31:15.699 INFO - Done: [find element: By.cssSelector: input[name="wfblin001"]]
+19:31:15.703 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="wfblin001"]]])
+19:31:15.732 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="wfblin001"]]]
+19:31:15.739 INFO - Executing: [find elements: By.cssSelector: input[name="wfblin001"]])
+19:31:15.777 INFO - Done: [find elements: By.cssSelector: input[name="wfblin001"]]
+19:31:15.782 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="wfblin001"]]])
+19:31:15.811 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="wfblin001"]]]
+19:31:15.818 INFO - Executing: [find element: By.cssSelector: input[name="wfblin001"]])
+19:31:15.827 INFO - Done: [find element: By.cssSelector: input[name="wfblin001"]]
+19:31:15.859 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="wfblin001"]]])
+1549276275878	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wfblin000.do?Code=NTEwNA=="
+1549276276097	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wfblin000.do?Code=NTEwNA=="
+1549276276098	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wfblin000.do?Code=NTEwNA=="
+1549276276239	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wfblin001.do"
+1549276276683	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wfblin001.do"
+19:31:16.685 INFO - Done: [click: 3 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="wfblin001"]]]
+19:31:18.692 INFO - Executing: [get title])
+19:31:18.697 INFO - Done: [get title]
+19:31:18.703 INFO - Executing: [find element: By.xpath: //img[contains(@alt,'�U���E�����U��')]])
+19:31:18.709 INFO - Done: [find element: By.xpath: //img[contains(@alt,'�U���E�����U��')]]
+19:31:18.714 INFO - Executing: [click: 4 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> xpath: //img[contains(@alt,'�U���E�����U��')]]])
+1549276278729	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wfblin001.do"
+1549276278828	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wfblin001.do"
+1549276278828	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wfblin001.do"
+1549276278912	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/menulauncher.do"
+1549276279137	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/menulauncher.do"
+19:31:19.141 INFO - Done: [click: 4 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> xpath: //img[contains(@alt,'�U���E�����U��')]]]
+19:31:19.645 INFO - Executing: [find elements: By.cssSelector: body])
+19:31:19.652 INFO - Done: [find elements: By.cssSelector: body]
+19:31:19.660 INFO - Executing: [get title])
+19:31:19.665 INFO - Done: [get title]
+19:31:20.673 INFO - Executing: [find element: By.xpath: //*[contains(text(), '�s�x�U��')]])
+19:31:20.684 INFO - Done: [find element: By.xpath: //*[contains(text(), '�s�x�U��')]]
+19:31:20.688 INFO - Executing: [click: 6 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> xpath: //*[contains(text(), '�s�x�U��')]]])
+1549276280710	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/menulauncher.do"
+1549276280760	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/menulauncher.do"
+1549276280760	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/menulauncher.do"
+1549276280847	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp000.do"
+1549276280906	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp000.do"
+19:31:20.912 INFO - Done: [click: 6 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> xpath: //*[contains(text(), '�s�x�U��')]]]
+19:31:21.418 INFO - Executing: [find elements: By.cssSelector: body])
+19:31:21.427 INFO - Done: [find elements: By.cssSelector: body]
+19:31:21.433 INFO - Executing: [get title])
+19:31:21.438 INFO - Done: [get title]
+19:31:22.445 INFO - Executing: [find element: By.cssSelector: input[value="�I��"]])
+19:31:22.452 INFO - Done: [find element: By.cssSelector: input[value="�I��"]]
+19:31:22.457 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[value="�I��"]]])
+1549276282472	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp000.do"
+1549276282551	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp000.do"
+1549276282551	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp000.do"
+1549276282625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp001.do"
+1549276282701	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp001.do"
+19:31:22.708 INFO - Done: [click: 8 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[value="�I��"]]]
+19:31:23.212 INFO - Executing: [find element: By.cssSelector: input[value="���p�ғo�^��"]])
+19:31:23.219 INFO - Done: [find element: By.cssSelector: input[value="���p�ғo�^��"]]
+19:31:23.222 INFO - Executing: [click: 9 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[value="���p�ғo�^��"]]])
+1549276283236	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp001.do"
+1549276283312	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp001.do"
+1549276283312	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp001.do"
+1549276283402	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp012.do"
+1549276283417	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp012.do"
+19:31:23.422 INFO - Done: [click: 9 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[value="���p�ғo�^��"]]]
+19:31:23.926 INFO - Executing: [find element: By.cssSelector: input[value="�I��"]])
+19:31:23.934 INFO - Done: [find element: By.cssSelector: input[value="�I��"]]
+19:31:23.937 INFO - Executing: [click: 10 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[value="�I��"]]])
+1549276283949	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp012.do"
+1549276284013	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp012.do"
+1549276284014	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp012.do"
+1549276284351	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp009.do"
+1549276284479	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp009.do"
+19:31:24.487 INFO - Done: [click: 10 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[value="�I��"]]]
+19:31:24.992 INFO - Executing: [find element: By.cssSelector: input[name="itp002101"]])
+19:31:25.002 INFO - Done: [find element: By.cssSelector: input[name="itp002101"]]
+19:31:25.006 INFO - Executing: [click: 11 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002101"]]])
+1549276285233	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+19:31:25.235 INFO - Done: [click: 11 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002101"]]]
+19:31:26.241 INFO - Executing: [find element: By.cssSelector: input[name="itp002102"]])
+19:31:26.249 INFO - Done: [find element: By.cssSelector: input[name="itp002102"]]
+19:31:26.252 INFO - Executing: [is displayed: 12 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002102"]]])
+19:31:26.283 INFO - Done: [is displayed: 12 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002102"]]]
+19:31:26.291 INFO - Executing: [find element: By.cssSelector: input[name="itp002102"]])
+19:31:26.299 INFO - Done: [find element: By.cssSelector: input[name="itp002102"]]
+19:31:26.304 INFO - Executing: [send keys: 12 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002102"]], [2]])
+19:31:26.329 INFO - Done: [send keys: 12 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002102"]], [2]]
+19:31:26.333 INFO - Executing: [find element: By.cssSelector: input[name="itp002103"]])
+19:31:26.340 INFO - Done: [find element: By.cssSelector: input[name="itp002103"]]
+19:31:26.344 INFO - Executing: [is displayed: 13 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002103"]]])
+19:31:26.372 INFO - Done: [is displayed: 13 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002103"]]]
+19:31:26.377 INFO - Executing: [find element: By.cssSelector: input[name="itp002103"]])
+19:31:26.476 INFO - Done: [find element: By.cssSelector: input[name="itp002103"]]
+19:31:26.481 INFO - Executing: [send keys: 13 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002103"]], [5]])
+19:31:26.503 INFO - Done: [send keys: 13 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002103"]], [5]]
+19:31:26.509 INFO - Executing: [find element: By.cssSelector: input[name="itp002305show"]])
+19:31:26.519 INFO - Done: [find element: By.cssSelector: input[name="itp002305show"]]
+19:31:26.522 INFO - Executing: [is displayed: 14 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002305show"]]])
+19:31:26.552 INFO - Done: [is displayed: 14 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002305show"]]]
+19:31:26.575 INFO - Executing: [find element: By.cssSelector: input[name="itp002305show"]])
+19:31:26.582 INFO - Done: [find element: By.cssSelector: input[name="itp002305show"]]
+19:31:26.587 INFO - Executing: [send keys: 14 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002305show"]], [7, 5, 0, 0, 0]])
+19:31:26.614 INFO - Done: [send keys: 14 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp002305show"]], [7, 5, 0, 0, 0]]
+19:31:26.619 INFO - Executing: [find element: By.cssSelector: input[value="�o�^"]])
+19:31:26.626 INFO - Done: [find element: By.cssSelector: input[value="�o�^"]]
+19:31:26.630 INFO - Executing: [click: 15 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[value="�o�^"]]])
+1549276286648	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp009.do"
+1549276287798	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp009.do"
+1549276287799	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp009.do"
+1549276287881	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp002.do"
+1549276288176	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp002.do"
+19:31:28.179 INFO - Done: [click: 15 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[value="�o�^"]]]
+19:31:28.686 INFO - Executing: [find element: By.cssSelector: input[name="itp0030011"]])
+19:31:28.692 INFO - Done: [find element: By.cssSelector: input[name="itp0030011"]]
+19:31:28.697 INFO - Executing: [is displayed: 16 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp0030011"]]])
+19:31:28.723 INFO - Done: [is displayed: 16 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp0030011"]]]
+19:31:28.730 INFO - Executing: [find element: By.cssSelector: input[name="itp0030011"]])
+19:31:28.737 INFO - Done: [find element: By.cssSelector: input[name="itp0030011"]]
+19:31:28.741 INFO - Executing: [send keys: 16 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp0030011"]], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+19:31:28.769 INFO - Done: [send keys: 16 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="itp0030011"]], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+19:31:29.774 INFO - Executing: [find element: By.cssSelector: input[name="ITP003005"]])
+19:31:29.781 INFO - Done: [find element: By.cssSelector: input[name="ITP003005"]]
+19:31:29.784 INFO - Executing: [click: 17 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="ITP003005"]]])
+1549276289798	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp002.do"
+1549276291295	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp002.do"
+1549276291296	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp002.do"
+1549276291360	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp003.do"
+1549276291477	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp003.do"
+19:31:31.483 INFO - Done: [click: 17 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> css selector: input[name="ITP003005"]]]
+1549276291536	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/57.0.4/20180103231032/WINNT_x86-msvc-x86/ja/release/Windows_NT%206.1.1.0%20(x86)/default/default/update.xml
+19:31:32.489 INFO - Executing: [find element: By.xpath: /html/body/form[1]/div[2]/table/tbody/tr/td[1]/table[3]/tbody/tr/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input])
+19:31:32.507 INFO - Done: [find element: By.xpath: /html/body/form[1]/div[2]/table/tbody/tr/td[1]/table[3]/tbody/tr/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input]
+19:31:32.511 INFO - Executing: [click: 18 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> xpath: /html/body/form[1]/div[2]/table/tbody/tr/td[1]/table[3]/tbody/tr/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input]])
+1549276292531	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp003.do"
+1549276292649	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp003.do"
+1549276292649	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wfbitp/wfbitp003.do"
+1549276292709	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/menu.do"
+1549276292804	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/menu.do"
+19:31:32.811 INFO - Done: [click: 18 [[FirefoxDriver: firefox on ANY (200b0087-0411-432b-b446-511286d31020)] -> xpath: /html/body/form[1]/div[2]/table/tbody/tr/td[1]/table[3]/tbody/tr/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input]]
+19:31:33.818 INFO - Executing: [delete session: 9e47626b-c628-44f1-b119-66311076d54c])
+1549276293828	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1549276293828	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 76.1
+1549276293829	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 19.2.0
+1549276293833	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1549276293833	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1549276293834	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1549276293835	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1549276293835	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 3.05
+1549276293836	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1549276293836	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2017.11.07.1100-7f4e3634
+19:31:34.553 INFO - Done: [delete session: 9e47626b-c628-44f1-b119-66311076d54c]
+19:31:34.564 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Shinkin Nightwatch Demo, browserName=firefox, platform=ANY}]])
+19:31:34.565 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Shinkin Nightwatch Demo, browserName=firefox, platform=ANY}]
+1549276295625	geckodriver	INFO	geckodriver 0.18.0
+1549276295632	geckodriver	INFO	Listening on 127.0.0.1:43097
+1549276305107	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1549276305344	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1549276305345	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1549276305355	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1549276305356	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1549276305356	addons.manager	DEBUG	Starting provider: XPIProvider
+1549276305356	addons.xpi	DEBUG	startup
+1549276305358	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1549276305359	addons.xpi	DEBUG	checkForChanges
+1549276305359	addons.xpi	DEBUG	Loaded add-on state: {"app-system-defaults":{"addons":{"formautofill@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397395,"path":"formautofill@mozilla.org.xpi","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"screenshots@mozilla.org":{"enabled":true,"lastModifiedTime":1515052409366,"path":"screenshots@mozilla.org.xpi","version":"19.2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397558,"path":"webcompat@mozilla.org.xpi","version":"1.1","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"activity-stream@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397621,"path":"activity-stream@mozilla.org.xpi","version":"2017.11.07.1100-7f4e3634","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"aushelper@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397007,"path":"aushelper@mozilla.org.xpi","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"e10srollout@mozilla.org":{"enabled":true,"lastModifiedTime":1515052396998,"path":"e10srollout@mozilla.org.xpi","version":"3.05","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"firefox@getpocket.com":{"enabled":true,"lastModifiedTime":1515052397512,"path":"firefox@getpocket.com.xpi","version":"1.0.5","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"followonsearch@mozilla.com":{"enabled":true,"lastModifiedTime":1515052397054,"path":"followonsearch@mozilla.com.xpi","version":"0.9.6","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"onboarding@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397377,"path":"onboarding@mozilla.org.xpi","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"shield-recipe-client@mozilla.org":{"enabled":true,"lastModifiedTime":1515052397753,"path":"shield-recipe-client@mozilla.org.xpi","version":"76.1","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false}},"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features"},"app-global":{"addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"enabled":true,"lastModifiedTime":1515052397001,"path":"{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","version":"57.0.4","type":"theme","currentModifiedTime":1515052397001}},"path":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions","checkStartupModifications":true}}
+1549276305361	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1549276305362	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1549276305362	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549276305362	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1549276305362	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549276305363	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549276305363	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549276305363	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1549276305363	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1549276305363	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1549276305363	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1549276305364	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1549276305364	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1549276305365	addons.xpi	DEBUG	No changes found
+1549276305369	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1549276305370	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1549276305372	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2017.11.07.1100-7f4e3634
+1549276305372	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549276305373	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549276305375	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1549276305376	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549276305377	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549276305379	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 3.05
+1549276305380	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549276305381	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549276305384	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1549276305391	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1549276305392	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1549276305393	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.6
+1549276305394	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1549276305395	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1549276305396	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1549276305396	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1549276305396	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1549276305398	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1549276305398	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1549276305399	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1549276305400	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 19.2.0
+1549276305400	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1549276305401	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1549276305402	addons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 76.1
+1549276305404	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549276305405	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549276305406	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1549276305407	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1549276305407	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1549276305407	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1549276305407	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1549276305407	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1549276305408	addons.manager	DEBUG	Starting provider: GMPProvider
+1549276305418	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1549276305418	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1549276305418	addons.manager	DEBUG	Starting provider: PluginProvider
+1549276305419	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1549276305419	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1549276305419	addons.manager	DEBUG	Completed startup sequence
+1549276305474	Marionette	INFO	Enabled via --marionette
+1549276305564	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1549276305564	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1549276305565	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1549276305972	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\U602896\AppData\Local\Temp\rust_mozprofile.HXvRvB3fag36\extensions.json
+1549276306002	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1549276306002	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549276306002	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549276306002	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549276306002	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1549276306002	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1549276306002	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1549276306002	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1549276306002	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1549276306002	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549276306003	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1549276306003	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1549276306004	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1549276306004	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1549276306004	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1549276306005	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1549276306005	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1549276306005	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1549276306005	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1549276306006	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1549276306006	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1549276306006	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1549276306007	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1549276306159	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1549276306159	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1549276306163	addons.xpi-utils	DEBUG	Successfully read XPI database
+1549276306343	Marionette	INFO	Listening on port 61012
+1549276306697	Marionette	DEBUG	Register listener.js for window 2147483649
+19:31:46.721 INFO - Detected dialect: W3C
+19:31:47.196 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Shinkin Nightwatch Demo, browserName=firefox, platform=ANY}]]
+19:31:47.203 INFO - Executing: [get: http://10.9.118.48/est/webfb/wbolin000.do?Code=NTEwNA==])
+1549276307214	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1549276307264	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1549276307264	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1549276307587	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wbolin000.do?Code=NTEwNA=="
+1549276307598	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wbolin000.do?Code=NTEwNA=="
+19:31:47.605 INFO - Done: [get: http://10.9.118.48/est/webfb/wbolin000.do?Code=NTEwNA==]
+19:31:47.609 INFO - Executing: [find elements: By.cssSelector: body])
+19:31:47.623 INFO - Done: [find elements: By.cssSelector: body]
+19:31:47.629 INFO - Executing: [get title])
+19:31:47.633 INFO - Done: [get title]
+19:31:47.641 INFO - Executing: [find element: By.cssSelector: input[name="userid"]])
+19:31:47.647 INFO - Done: [find element: By.cssSelector: input[name="userid"]]
+19:31:47.652 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="userid"]]])
+19:31:47.680 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="userid"]]]
+19:31:47.686 INFO - Executing: [find element: By.cssSelector: input[name="userid"]])
+19:31:47.691 INFO - Done: [find element: By.cssSelector: input[name="userid"]]
+19:31:47.695 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="userid"]], [m, a, s, t, e, r, 5, 1, 0, 4]])
+19:31:47.735 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="userid"]], [m, a, s, t, e, r, 5, 1, 0, 4]]
+19:31:47.740 INFO - Executing: [find element: By.cssSelector: input[name="passwd"]])
+19:31:47.748 INFO - Done: [find element: By.cssSelector: input[name="passwd"]]
+19:31:47.750 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="passwd"]]])
+19:31:47.778 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="passwd"]]]
+19:31:47.783 INFO - Executing: [find element: By.cssSelector: input[name="passwd"]])
+19:31:47.793 INFO - Done: [find element: By.cssSelector: input[name="passwd"]]
+19:31:47.797 INFO - Executing: [send keys: 2 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="passwd"]], [5, 1, 0, 4, m, a, s]])
+19:31:47.823 INFO - Done: [send keys: 2 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="passwd"]], [5, 1, 0, 4, m, a, s]]
+19:31:47.829 INFO - Executing: [find element: By.cssSelector: input[name="wbolin001"]])
+19:31:47.836 INFO - Done: [find element: By.cssSelector: input[name="wbolin001"]]
+19:31:47.839 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="wbolin001"]]])
+19:31:47.865 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="wbolin001"]]]
+19:31:47.871 INFO - Executing: [find elements: By.cssSelector: input[name="wbolin001"]])
+19:31:47.928 INFO - Done: [find elements: By.cssSelector: input[name="wbolin001"]]
+19:31:47.932 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="wbolin001"]]])
+19:31:47.958 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="wbolin001"]]]
+19:31:47.964 INFO - Executing: [find element: By.cssSelector: input[name="wbolin001"]])
+19:31:47.970 INFO - Done: [find element: By.cssSelector: input[name="wbolin001"]]
+19:31:47.973 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="wbolin001"]]])
+1549276307988	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wbolin000.do?Code=NTEwNA=="
+1549276308160	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wbolin000.do?Code=NTEwNA=="
+1549276308161	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wbolin000.do?Code=NTEwNA=="
+1549276308225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wbolin001.do"
+1549276308245	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wbolin001.do"
+19:31:48.247 INFO - Done: [click: 3 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[name="wbolin001"]]]
+19:31:50.255 INFO - Executing: [get title])
+19:31:50.259 INFO - Done: [get title]
+19:31:50.264 INFO - Executing: [find element: By.xpath: //*[contains(text(), '�Ɖ�����j���[')]])
+19:31:50.271 INFO - Done: [find element: By.xpath: //*[contains(text(), '�Ɖ�����j���[')]]
+19:31:50.275 INFO - Executing: [click: 4 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> xpath: //*[contains(text(), '�Ɖ�����j���[')]]])
+1549276310298	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wbolin001.do"
+1549276310409	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wbolin001.do"
+1549276310410	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wbolin001.do"
+1549276310462	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wbomnu/menulauncher.do"
+1549276310556	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wbomnu/menulauncher.do"
+19:31:50.560 INFO - Done: [click: 4 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> xpath: //*[contains(text(), '�Ɖ�����j���[')]]]
+19:31:51.565 INFO - Executing: [find element: By.xpath: //*[contains(text(), '�ב֏Ɖ��')]])
+19:31:51.570 INFO - Done: [find element: By.xpath: //*[contains(text(), '�ב֏Ɖ��')]]
+19:31:51.574 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> xpath: //*[contains(text(), '�ב֏Ɖ��')]]])
+1549276311590	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wbomnu/menulauncher.do"
+1549276311630	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wbomnu/menulauncher.do"
+1549276311631	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wbomnu/menulauncher.do"
+1549276311691	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wbomnu/submenulauncher.do"
+1549276311732	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wbomnu/submenulauncher.do"
+19:31:51.736 INFO - Done: [click: 5 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> xpath: //*[contains(text(), '�ב֏Ɖ��')]]]
+19:31:52.741 INFO - Executing: [find element: By.xpath: /html/body/table[4]/tbody/tr/td[2]/table[2]/tbody/tr/td/table/tbody/tr[7]/td[3]])
+19:31:52.748 INFO - Done: [find element: By.xpath: /html/body/table[4]/tbody/tr/td[2]/table[2]/tbody/tr/td/table/tbody/tr[7]/td[3]]
+19:31:52.751 INFO - Executing: [click: 6 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> xpath: /html/body/table[4]/tbody/tr/td[2]/table[2]/tbody/tr/td/table/tbody/tr[7]/td[3]]])
+1549276312765	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wbomnu/submenulauncher.do"
+1549276312808	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wbomnu/submenulauncher.do"
+1549276312808	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wbomnu/submenulauncher.do"
+1549276312872	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wborfe/wborfe_menu.do"
+1549276312888	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wborfe/wborfe_menu.do"
+19:31:52.892 INFO - Done: [click: 6 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> xpath: /html/body/table[4]/tbody/tr/td[2]/table[2]/tbody/tr/td/table/tbody/tr[7]/td[3]]]
+19:31:53.897 INFO - Executing: [find element: By.cssSelector: input[value="�����"]])
+19:31:53.904 INFO - Done: [find element: By.cssSelector: input[value="�����"]]
+19:31:53.908 INFO - Executing: [click: 7 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="�����"]]])
+1549276313921	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wborfe/wborfe_menu.do"
+1549276314168	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wborfe/wborfe_menu.do"
+1549276314168	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wborfe/wborfe_menu.do"
+1549276314242	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wborfe/wborfe0231.do"
+1549276314274	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wborfe/wborfe0231.do"
+19:31:54.280 INFO - Done: [click: 7 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="�����"]]]
+19:31:55.285 INFO - Executing: [find element: By.cssSelector: input[value="���"]])
+19:31:55.296 INFO - Done: [find element: By.cssSelector: input[value="���"]]
+19:31:55.299 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="���"]]])
+1549276315318	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wborfe/wborfe0231.do"
+1549276315487	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wborfe/wborfe0231.do"
+1549276315488	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wborfe/wborfe0231.do"
+1549276315549	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wborfe/wborfe0232.do"
+1549276315593	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wborfe/wborfe0232.do"
+19:31:55.598 INFO - Done: [click: 8 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="���"]]]
+19:31:56.603 INFO - Executing: [find element: By.cssSelector: input[value="�f�B���[�h���[�Ɖ�"]])
+19:31:56.610 INFO - Done: [find element: By.cssSelector: input[value="�f�B���[�h���[�Ɖ�"]]
+19:31:56.615 INFO - Executing: [click: 9 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="�f�B���[�h���[�Ɖ�"]]])
+1549276316630	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wborfe/wborfe0232.do"
+1549276316732	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wborfe/wborfe0232.do"
+1549276316733	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wborfe/wborfe0232.do"
+1549276316788	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wborfc/wborfc_menu.do"
+1549276316793	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wborfc/wborfc_menu.do"
+19:31:56.797 INFO - Done: [click: 9 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="�f�B���[�h���[�Ɖ�"]]]
+19:32:01.802 INFO - Executing: [find element: By.cssSelector: input[value="�����"]])
+19:32:01.813 INFO - Done: [find element: By.cssSelector: input[value="�����"]]
+19:32:01.817 INFO - Executing: [click: 10 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="�����"]]])
+1549276321835	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wborfc/wborfc_menu.do"
+1549276321905	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wborfc/wborfc_menu.do"
+1549276321905	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wborfc/wborfc_menu.do"
+1549276321983	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/wborfc/wborfc0401.do"
+1549276321993	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/wborfc/wborfc0401.do"
+19:32:01.999 INFO - Done: [click: 10 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="�����"]]]
+19:32:03.004 INFO - Executing: [find element: By.cssSelector: input[value="���"]])
+19:32:03.012 INFO - Done: [find element: By.cssSelector: input[value="���"]]
+19:32:03.016 INFO - Executing: [click: 11 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="���"]]])
+1549276323394	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+19:32:03.397 INFO - Done: [click: 11 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> css selector: input[value="���"]]]
+1549276325498	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/57.0.4/20180103231032/WINNT_x86-msvc-x86/ja/release/Windows_NT%206.1.1.0%20(x86)/default/default/update.xml
+19:32:18.403 INFO - Executing: [find element: By.xpath: //*[contains(text(), '���O�A�E�g')]])
+19:32:18.412 INFO - Done: [find element: By.xpath: //*[contains(text(), '���O�A�E�g')]]
+19:32:18.416 INFO - Executing: [click: 12 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> xpath: //*[contains(text(), '���O�A�E�g')]]])
+1549276338433	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.9.118.48/est/webfb/wborfc/wborfc0401.do"
+1549276338508	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.9.118.48/est/webfb/wborfc/wborfc0401.do"
+1549276338509	Marionette	DEBUG	Received DOM event "unload" for "http://10.9.118.48/est/webfb/wborfc/wborfc0401.do"
+1549276338558	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.9.118.48/est/webfb/menu.do"
+1549276338561	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.9.118.48/est/webfb/menu.do"
+19:32:18.566 INFO - Done: [click: 12 [[FirefoxDriver: firefox on ANY (09f61800-6722-4c02-b0d5-60813f0140c7)] -> xpath: //*[contains(text(), '���O�A�E�g')]]]
+19:32:19.590 INFO - Executing: [delete session: 7065362d-6d52-4258-94a2-e67309b2d025])
+1549276339597	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1549276339597	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 76.1
+1549276339598	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 19.2.0
+1549276339602	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1549276339603	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1549276339604	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1549276339605	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1549276339605	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 3.05
+1549276339605	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1549276339606	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2017.11.07.1100-7f4e3634
+JavaScript error: chrome://browser/content/browser.js, line 8383: TypeError: gBrowser.tabContainer is undefined
+[Parent 8788, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+19:32:20.112 INFO - Done: [delete session: 7065362d-6d52-4258-94a2-e67309b2d025]

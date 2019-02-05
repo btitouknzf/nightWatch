@@ -1,0 +1,27 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.18t|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+
+[INVALID]
+C:\Program Files\Adobe\Acrobat Reader DC\Reader\AIR\nppdf32.dll|$
+1545245192000|$
+C:\Program Files\Google\Update\1.3.33.17\npGoogleUpdate3.dll|$
+1538700458198|$
+C:\PROGRA~1\MICROS~1\Office15\NPSPWRAP.DLL|$
+1390431372000|$
+c:\Program Files\Microsoft Silverlight\5.1.50907.0\npctrl.dll|$
+1493818468000|$
+c:\Program Files\Microsoft Silverlight\5.1.50907.0\npctrlui.dll|$
+1493818468000|$
+C:\Program Files\Mozilla Firefox\plugins\npMeetingJoinPluginOC.dll|$
+1487806178000|$
+C:\Program Files\Mozilla Firefox\plugins\nppdf32.dll|$
+1545245192000|$
+C:\Java\jre1.8.0_151\bin\plugin2\npjp2.dll|$
+1548210177278|$
+C:\Java\jre1.8.0_151\bin\dtplugin\npdeployJava1.dll|$
+1548210175935|$

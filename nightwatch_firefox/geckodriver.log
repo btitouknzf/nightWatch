@@ -1,0 +1,15 @@
+1548810287649	geckodriver	INFO	geckodriver 0.18.0
+1548810287650	webdriver::httpapi	DEBUG	Creating routes
+1548810287658	geckodriver	INFO	Listening on 127.0.0.1:4444
+1548810287664	webdriver::server	DEBUG	-> GET /status 
+1548810287665	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1548810287757	webdriver::server	DEBUG	-> POST /session {"capabilities":{"browserName":"firefox","acceptSslCerts":true,"acceptInsecureCerts":true,"alwaysMatch":{"moz:firefoxOptions":{"args":["-profile","C:/Users/U602896/AppData/Roaming/Mozilla/Firefox/Profiles/bln9d3oi.nightwatch"]}},"name":"5101 Test20"},"desiredCapabilities":{"browserName":"firefox","acceptSslCerts":true,"platform":"ANY","acceptInsecureCerts":true,"alwaysMatch":{"moz:firefoxOptions":{"args":["-profile","C:/Users/U602896/AppData/Roaming/Mozilla/Firefox/Profiles/bln9d3oi.nightwatch"]}},"name":"5101 Test20"}}
+1548810287859	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette", "-profile", "C:/Users/U602896/AppData/Roaming/Mozilla/Firefox/Profiles/bln9d3oi.nightwatch"]
+[Child 11448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 13740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

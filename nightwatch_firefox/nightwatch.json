@@ -1,0 +1,31 @@
+{
+    "src_folders": [
+        "test"
+    ],
+    "output_folder": "reports",
+    "selenium": {
+        "start_process": true,
+        "log_path": "./reports",
+        "port": 4444
+    },
+    "test_settings": {
+        "default": {
+            "desiredCapabilities": {
+                "browserName": "firefox"
+            },
+            "selenium": {
+                "server_path": "./lib/selenium-server-standalone-3.4.0.jar",
+                "cli_args": {
+                    "webdriver.gecko.driver": "./lib/geckodriverv0.18.0-win32.exe",
+                    "webdriver.firefox.profile": "Nightwatch1"
+                }
+            }
+        },
+        "firefox": {
+            "desiredCapabilities": {
+                "browserName": "firefox",
+                "acceptInsecureCerts": true
+            }
+        }
+    }
+}

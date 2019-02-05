@@ -1,0 +1,41 @@
+{
+    "src_folders": [
+        "test"
+    ],
+    "output_folder": "reports",
+    "selenium": {
+        "start_process": false,
+        "server_path": "./lib/selenium-server-standalone-3.14.0.jar",
+        "log_path": "./reports",
+        "port": 4444,
+        "cli_args": {
+            "webdriver.gecko.driver": "./lib/geckodriverv0.21.0-win32.exe",
+            "webdriver.firefox.profile" : "C:/Users/U602896/AppData/Roaming/Mozilla/Firefox/Profiles/bln9d3oi.nightwatch"
+        }
+    },
+    "webdriver": {
+        "start_process": true,
+        "server_path": "./lib/geckodriverv0.21.0-win32.exe",
+        "cli_args": [
+            "--log",
+            "debug"
+        ],
+        "port": 4444
+    },
+    "test_settings": {
+        "default": {
+            "desiredCapabilities": {
+                "browserName": "firefox",
+                "acceptInsecureCerts": true,
+                "alwaysMatch": { //webdriverにprofileを設定することができるが動かない
+                    "moz:firefoxOptions": {
+                        "args": [
+                            "-profile",
+                            "C:/Users/U602896/AppData/Roaming/Mozilla/Firefox/Profiles/bln9d3oi.nightwatch"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
